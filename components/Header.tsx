@@ -48,6 +48,15 @@ export function Header({ app }: { app: AppMeta }): JSX.Element {
             GitHub
           </a>
         </div>
+        <div className={styles.Link}>
+          <a
+            href="https://twitter.com/freshcryptoaca"
+            rel="noreferrer noopener"
+            target="_blank"
+          >
+            twitter
+          </a>
+        </div>
         <div className={styles.Search}>
           <button
             type="button"

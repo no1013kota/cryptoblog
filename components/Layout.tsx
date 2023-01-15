@@ -16,7 +16,7 @@ export function Layout({
       <Header app={app} />
       {children}
       <Footer app={app} />
-      <Badge />
+      {/* <Badge /> */}
     </div>
   )
 }
